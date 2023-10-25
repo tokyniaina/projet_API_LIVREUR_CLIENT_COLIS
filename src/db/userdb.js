@@ -1,0 +1,43 @@
+const users = [
+  {
+    id: 1,
+    name: "client1",
+    firstname: "client1",
+    numTel: 344617221,
+    mail: "toky803@gmail.com",
+    job: ["client"],
+    transport: ["null"],
+    passsword: "client1",
+  },
+  {
+    id: 2,
+    name: "client2",
+    firstname: "client2",
+    numTel: 344617222,
+    mail: "toky803@gmail.com",
+    job: ["client"],
+    transport: ["null"],
+    passsword: "client2",
+  },
+  {
+    id: 3,
+    name: "livreur1",
+    firstname: "livreur1",
+    numTel: 344617225,
+    mail: "toky803@gmail.com",
+    job: ["livreur"],
+    transport: ["moto", "voiture"],
+    passsword: "livreur1",
+  },
+  {
+    id: 4,
+    name: "livreur2",
+    firstname: "livreur2",
+    numTel: 344617223,
+    mail: "toky803@gmail.com",
+    job: ["livreur","coursier"],
+    transport: ["moto", "voiture"],
+    passsword: "livreur1",
+  },
+];
+module.exports = users;
