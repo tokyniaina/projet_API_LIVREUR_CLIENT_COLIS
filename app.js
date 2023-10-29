@@ -12,9 +12,12 @@ app
   .use(favicon(__dirname + "/favicon.ico"))
   .use(morgan("dev"))
   .use(bodyParser.json())
-  .use(cors)
+  .use(cors())
 
 sequelize.initDb();
+app.get ('/', (req, res) => {
+  res.json('Hello, 😋')
+})
 
 //ici nous place nos future points de terminaison
 //user

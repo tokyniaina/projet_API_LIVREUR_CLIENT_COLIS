@@ -9,7 +9,7 @@ const dateModel = require("../models/date");
 const livreurstatuModel = require("../models/livreurstatu");
 const bcrypt = require("bcrypt");
 
-const sequelize = new Sequelize("db_livraison", "root", "", {
+const sequelize = new Sequelize("livraison_client_db", "root", "", {
   host: "localhost",
   dialect: "mariadb",
   dialectOptions: {
